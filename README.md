@@ -6,7 +6,7 @@ A **responsive, modern website** for Einstein Digital, a fictional IT services c
 
 ## 🌐 Live Demo
 
-[🔗 View Live Website](https://einsteindigital.netlify.app/))
+[🔗 View Live Website](https://einsteindigital.netlify.app/)
 
 ---
 
