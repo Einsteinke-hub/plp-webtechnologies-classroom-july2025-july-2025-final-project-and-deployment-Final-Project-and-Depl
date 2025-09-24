@@ -1,0 +1,149 @@
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .story-content,
+    .service-detail {
+        gap: var(--space-lg);
+    }
+}
+
+@media (max-width: 768px) {
+    /* Mobile Navigation */
+    .menu-toggle {
+        display: block;
+    }
+    
+    .nav-menu {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 70px);
+        background: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: var(--space-xl);
+        transition: left 0.3s ease;
+        box-shadow: var(--shadow-lg);
+    }
+    
+    .nav-menu.active {
+        left: 0;
+    }
+    
+    .menu-toggle.active .hamburger {
+        background: transparent;
+    }
+    
+    .menu-toggle.active .hamburger::before {
+        transform: rotate(45deg);
+        top: 0;
+    }
+    
+    .menu-toggle.active .hamburger::after {
+        transform: rotate(-45deg);
+        bottom: 0;
+    }
+    
+    /* Layout Adjustments */
+    .hero .container,
+    .story-content,
+    .service-detail,
+    .contact-content,
+    .blog-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .page-header h1 {
+        font-size: 2.5rem;
+    }
+    
+    .service-tabs {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .tab-button {
+        border-bottom: 1px solid #e5e7eb;
+        border-left: 3px solid transparent;
+        text-align: left;
+    }
+    
+    .tab-button.active {
+        border-left-color: var(--primary);
+        border-bottom-color: #e5e7eb;
+    }
+    
+    /* Spacing Adjustments */
+    .hero {
+        padding: 100px 0 60px;
+    }
+    
+    .page-header {
+        padding: 120px 0 60px;
+    }
+    
+    .features,
+    .services-preview,
+    .cta,
+    .our-story,
+    .values,
+    .team,
+    .stats,
+    .process,
+    .map {
+        padding: var(--space-lg) 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 var(--space-sm);
+    }
+    
+    .hero-title {
+        font-size: 1.75rem;
+    }
+    
+    .page-header h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.75rem;
+    }
+    
+    .features-grid,
+    .services-grid,
+    .values-grid,
+    .team-grid,
+    .stats-grid,
+    .process-steps {
+        grid-template-columns: 1fr;
+    }
+    
+    .feature-card,
+    .service-card,
+    .value-card {
+        padding: var(--space-md);
+    }
+    
+    .contact-form-container,
+    .contact-info,
+    .blog-sidebar {
+        padding: var(--space-lg);
+    }
+}
