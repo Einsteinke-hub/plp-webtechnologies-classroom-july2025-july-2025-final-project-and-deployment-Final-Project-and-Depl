@@ -120,32 +120,12 @@ This website is deployed using **GitHub Pages**.
 
 ---
 
-## 🔧 Development Setup
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/techsolutions-website.git
-   cd techsolutions-website
-   ```
-2. **Open `index.html` in your browser** or use a local server:
-
-   **Using Python:**
-   ```bash
-   python -m http.server 8000
-   ```
-
-   **Using Node.js:**
-   ```bash
-   npx http-server
-   ```
-
----
 
 ## 📞 Support
 
 For questions or issues regarding this project, please contact:
 
-- **Email:** developer@example.com
+- **Email:** einstenmarto30@gmail.com.com
 - **GitHub Issues:** [Project Issues](https://github.com/yourusername/techsolutions-website/issues)
 
 ---
