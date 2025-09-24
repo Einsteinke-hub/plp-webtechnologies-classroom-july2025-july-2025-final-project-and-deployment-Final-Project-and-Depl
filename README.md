@@ -1,6 +1,6 @@
 # 🚀 Einstein Digital - Multipage Website
 
-A **responsive, modern website** for TechSolutions, a fictional IT services company. This project demonstrates comprehensive web development skills including HTML5, CSS3, JavaScript, responsive design, and deployment best practices.
+A **responsive, modern website** for Einstein Digital, a fictional IT services company. This project demonstrates comprehensive web development skills including HTML5, CSS3, JavaScript, responsive design, and deployment best practices.
 
 ---
 
